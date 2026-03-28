@@ -3,7 +3,7 @@ import math
 
 app = Flask(__name__)
 
-@app.route("/progress", methods=["GET", "POST"])
+@app.route("/", methods=["GET", "POST"])
 def home():
 
     attendance = ""   # ✅ changed from None
